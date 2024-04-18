@@ -30,7 +30,9 @@ ul {
 img {
     display: block;
 }
-    
+input {
+    font-family: inherit;
+}  
 .container {
     max-width: 1158px;
     padding-left: 15px;
@@ -695,9 +697,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 .modal-input:focus + .modal-icon {
      fill: #4d5ae5;
 }
-input {
-    font-family: inherit;
-}
+
   
        
                                              
