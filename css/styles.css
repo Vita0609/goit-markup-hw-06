@@ -523,7 +523,8 @@ background-color: #31d0aa;
     justify-content: center;
     pointer-events: none;
     opacity: 0;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 .modal {
     position: absolute;
@@ -645,7 +646,7 @@ background-color: #31d0aa;
     color: #4d5ae5;
 }
 .check {
-    margin-right: 8px;
+margin-right: 8px;
 align-items: center;
 display: inline-flex;
 justify-content: center;
@@ -680,10 +681,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 .button-modal:focus,
 .button-modal:hover {
     background-color: #404BBF;
-}
-.icon-button {
-    fill: #fff;
-    margin-left: 16px;
 }
 .icon-modal {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
