@@ -327,7 +327,12 @@
             <ul class="cards">
               <li class="item-card"> 
                 <div class="overlay">
-                <img src="./images/banking1x.jpg" alt="Banking App" width="360">
+                  <picture>
+                    <source srcset="./images/banking-app-desk.jpg 1x, ./images/banking-app-desk-@2x.jpg 2x" media="(min-width: 1158px)" />
+                    <source srcset="./images/banking-app-tab.jpg 1x, ./images/banking-app-tab-@2x.jpg 2x" media="(min-width: 768px)" />
+                    <source srcset="./images/banking-app-mob.jpg 1x, ./images/banking-app-mob-@2x.jpg 2x" media="(max-width: 767px)" />
+                    <img src="./images/banking-app-mob.jpg" alt="banking-app" />
+                  </picture>
                 <p class="overlay-p">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
