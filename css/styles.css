@@ -209,7 +209,7 @@ body {
     }
   }
   
-  /* banner */
+  /* section main */
   
   .banner {
     background-color: #2e2f42;
@@ -223,7 +223,7 @@ body {
     max-width: 320px;
   }
   
-  /* bannet 320px */
+  /* size 320px */
   
   @media screen and (min-width: 320px) {
     .banner {
@@ -236,7 +236,7 @@ body {
     }
   }
   
-  /* bannet 768px */
+  /* size 768px */
   
   @media screen and (min-width: 768px) {
     .banner {
@@ -249,7 +249,7 @@ body {
     }
   }
   
-  /* bannet 1158px */
+  /* size 1158px */
   
   @media screen and (min-width: 1158px) {
     .banner {
@@ -322,7 +322,7 @@ body {
     }
   }
   
-  /* about us */
+  /* Features */
   
   .about-us-icons-container {
     border: 1px solid #8e8f99;
@@ -418,7 +418,7 @@ body {
     }
   }
   
-  /* our team */
+  /* Our team */
   
   .our-team {
     background-color: #f4f4fd;
@@ -509,7 +509,7 @@ body {
     }
   }
   
-  /* our portfolio */
+  /* Our portfolio */
   
   .list-our-portfolio {
     flex-direction: column;
@@ -588,7 +588,7 @@ body {
     }
   }
   
-  /* footer */
+  /* Footer */
   
   .footer {
     background-color: #2e2f42;
@@ -830,12 +830,10 @@ body {
     opacity: 0;
     pointer-events: none;
   }
-  
   .modal-overlay.is-open {
     opacity: 1;
     pointer-events: auto;
   }
-  
   .modal {
     position: absolute;
     background: #fcfcfc;
@@ -849,7 +847,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
   .close-modal {
     position: absolute;
     top: 24px;
@@ -866,22 +863,18 @@ body {
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
   .close-modal:hover,
   .close-modal:focus {
     background-color: #404bbf;
     border: none;
   }
-  
   .icon-close-modal {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
   .close-modal:hover .icon-close-modal,
   .close-modal:focus .icon-close-modal {
     fill: #fff;
   }
-  
   .modal-title {
     font-weight: 500;
     line-height: 1.5;
@@ -890,16 +883,13 @@ body {
     color: #2e2f42;
     margin-bottom: 16px;
   }
-  
   .form {
     display: flex;
     flex-direction: column;
   }
-  
   .input-container {
     margin-bottom: 8px;
   }
-  
   .form-label {
     display: block;
     font-size: 12px;
@@ -908,7 +898,6 @@ body {
     color: #8e8f99;
     margin-bottom: 4px;
   }
-  
   .form-input-textarea {
     width: 256px;
     height: 120px;
@@ -924,7 +913,6 @@ body {
     color: rgba(46, 47, 66, 0.4);
     background-color: transparent;
   }
-  
   .form-input {
     border: 1px solid rgba(46, 47, 66, 0.4);
     background-color: transparent;
@@ -939,25 +927,20 @@ body {
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
   .form-input:focus {
     border-color: #4d5ae5;
   }
-  
   .form-input-textarea:focus {
     border-color: #4d5ae5;
   }
-  
   .modal-input-wrap {
     position: relative;
     display: flex;
     align-items: center;
   }
-  
   .form-input:focus + .form-input-icon {
     fill: #4d5ae5;
   }
-  
   .form-input-icon {
     position: absolute;
     left: 16px;
@@ -965,11 +948,9 @@ body {
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
   .input-container-textarea {
     margin-bottom: 16px;
   }
-  
   .form-button {
     font-weight: 500;
     line-height: 1.5;
@@ -987,28 +968,23 @@ body {
     min-width: 169px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
   .form-button:hover,
   .form-button:focus {
     background-color: #404bbf;
   }
-  
   input:focus-within {
     border: 1px solid #4d5ae5;
     border-radius: 4px;
   }
-  
   input::placeholder {
     font-size: 12px;
     line-height: 1.16667;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
   }
-  
   .modal-field {
     margin-bottom: 24px;
   }
-  
   .input-check-text {
     font-weight: 400;
     font-size: 12px;
@@ -1016,7 +992,6 @@ body {
     letter-spacing: 0.04em;
     color: #8e8f99;
   }
-  
   .privacy-policy {
     line-height: 1.33;
     text-decoration: underline;
@@ -1024,7 +999,6 @@ body {
     text-transform: capitalize;
     color: #4d5ae5;
   }
-  
   .check-empty {
     position: relative;
     display: inline-flex;
@@ -1040,18 +1014,15 @@ body {
     fill: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
   .input-check-icon {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
   .input-check {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
   .input-check:checked + .input-check-text > .check-empty {
     background-color: #404bbf;
     border: none;

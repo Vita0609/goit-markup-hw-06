@@ -17,16 +17,16 @@
       referrerpolicy="no-referrer"
     />
 
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!-- header -->
+    <!-- -------------------------Header------------------------------- -->
     <header class="header">
       <div class="container container-header">
         <nav class="container-nav">
           <a class="logotype-header" href="./index.html">Web<span class="logotype-header-item">Studio</span></a>
 
-          <!-- секція яка не використовується в моб версії -->
+          <!-- ----------------Nav---------------- -->
           <ul class="list-nav">
             <li class="list-nav-item">
               <a class="link current" href="./index.html">Studio</a>
@@ -39,14 +39,13 @@
             </li>
           </ul>
         </nav>
-        <!-- секція яка не використовується в моб версії -->
+        <!-- ---------------------Address---------------- -->
         <address class="header-address">
           <ul class="header-address-list">
             <li><a class="header-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a class="header-contact" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
           </ul>
         </address>
-        <!-- гамбургер для моб версії -->
         <button class="menu-button" type="button">
           <svg class="menu-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-menu"></use>
@@ -54,22 +53,20 @@
         </button>
       </div>
     </header>
-    <!-- main -->
+    <!-- --------------------------------Main-------------------------- -->
     <main>
-      <!-- banner -->
       <section class="section banner">
         <div class="container">
           <h1 class="title-banner">Effective Solutions for Your Business</h1>
           <button class="button-banner" type="button">Order Service</button>
         </div>
       </section>
-      <!-- about us -->
+      <!-- ------------------------Features--------------------------- -->
       <section class="section">
         <div class="container">
           <h2 class="visually-hidden">About Us</h2>
           <ul class="list-about-us">
             <li class="item-about-us">
-              <!-- cсекція не використовується в моб версії та планшетній -->
               <div class="about-us-icons-container">
                 <svg class="icons" width="64" height="64">
                   <use href="./images/icons.svg#icon-antenna"></use>
@@ -108,15 +105,15 @@
           </ul>
         </div>
       </section>
-      <!-- our team -->
+      <!-- ----------------Our Team---------------------- -->
       <section class="section our-team">
         <div class="container container-our-team">
           <h2 class="title-section">Our Team</h2>
           <ul class="list-our-team">
             <li class="item-our-team">
               <img
-                srcset="./images/mark-guerrero.jpg 1x, ./images/mark-guerrero@2x.jpg 2x"
-                src="./images/mark-guerrero.jpg"
+                srcset="./images/mark1x.jpg 1x, ./images/mark2x.jpg 2x"
+                src="./images/mark1x.jpg"
                 alt="mark-guerrero-photo"
                 width="264"
               />
@@ -157,8 +154,8 @@
             </li>
             <li class="item-our-team">
               <img
-                srcset="./images/tom-ford-photo.jpg 1x, ./images/tom-ford-photo@2x.jpg 2x"
-                src="./images/tom-ford-photo.jpg"
+                srcset="./images/tom1x.jpg 1x, ./images/tom2x.jpg 2x"
+                src="./images/tom1x.jpg"
                 alt="tom-ford-photo"
                 width="264"
               />
@@ -199,8 +196,8 @@
             </li>
             <li class="item-our-team">
               <img
-                srcset="./images/camila-garcia-photo.jpg 1x, ./images/camila-garcia-photo@2x.jpg 2x"
-                src="./images/camila-garcia-photo.jpg"
+                srcset="./images/camila1x.jpg 1x, ./images/camila2x.jpg 2x"
+                src="./images/camila1x.jpg"
                 alt="camila-garcia-photo"
                 width="264"
               />
@@ -241,8 +238,8 @@
             </li>
             <li class="item-our-team">
               <img
-                srcset="./images/daniel-wilson-photo.jpg 1x, ./images/daniel-wilson-photo@2x.jpg 2x"
-                src="./images/daniel-wilson-photo.jpg"
+                srcset="./images/daniel1x.jpg 1x, ./images/daniel2x.jpg 2x"
+                src="./images/daniel1x.jpg"
                 alt="daniel-wilson-photo"
                 width="264"
               />
@@ -284,7 +281,7 @@
           </ul>
         </div>
       </section>
-      <!-- our portfolio -->
+      <!-- ------------------------Our Portfolio------------------------ -->
       <section class="section">
         <div class="container">
           <h2 class="title-section">Our Portfolio</h2>
@@ -410,7 +407,7 @@
         </div>
       </section>
     </main>
-    <!-- footer -->
+    <!-- --------------------Footer------------------------ -->
     <footer class="footer">
       <div class="container container-footer">
         <div class="container-logo-and-socsal">
@@ -452,6 +449,7 @@
             </ul>
           </div>
         </div>
+        <!---------------Subscribe--------------------->
         <div class="subscribe-container">
           <p class="title-subscribe">Subscribe</p>
           <form class="container-button">
@@ -468,7 +466,7 @@
         </div>
       </div>
     </footer>
-    <!-- modal overlay -->
+    <!-- -------------------Modal overlay--------------------------- -->
     <div class="modal-overlay">
       <div class="modal">
         <button class="close-modal" type="button">
@@ -487,7 +485,7 @@
               </svg>
             </div>
           </div>
-
+              <!--Phone-->
           <div class="input-container">
             <label class="form-label" for="user-phone">Phone</label>
             <div class="modal-input-wrap">
@@ -497,7 +495,7 @@
               </svg>
             </div>
           </div>
-
+             <!--Email-->
           <div class="input-container">
             <label class="form-label" for="user-email">Email</label>
             <div class="modal-input-wrap">
@@ -507,13 +505,13 @@
               </svg>
             </div>
           </div>
-
+            <!--Comment-->
           <div class="input-container-textarea">
             <label class="form-label" for="user-comment">Comment</label>
             <textarea class="form-input-textarea" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
           </div>
 
-          <!-- checkbox -->
+          <!-- ---------------------Checkbox----------------------- -->
           <div class="modal-field check-field">
             <input class="input-check visually-hidden" id="user-privacy" type="checkbox" name="user-privacy" value="true" />
             <label class="input-check-text" for="user-privacy">
@@ -529,7 +527,7 @@
         </form>
       </div>
     </div>
-    <!-- modal menu mobile -->
+     <!-- --------------------Modal menu---------------------- -->
     <div class="modal-overlay-mobile-menu">
       <button class="close-modal-mobile-menu" type="button">
         <svg class="icon-close-modal" width="8" height="8">
